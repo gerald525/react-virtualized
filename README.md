@@ -1,9 +1,8 @@
-[<img src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" alt="React virtualized" data-canonical-src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" width="330" height="100" />](http://bvaughn.github.io/react-virtualized/)
+[<img src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" alt="React virtualized" data-canonical-src="https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png" width="330" height="100" />](http://gerald525.github.io/react-virtualized/)
 
 React components for efficiently rendering large lists and tabular data.
-Check out [the demo](https://bvaughn.github.io/react-virtualized/) for some examples.
 
-### If you like this project, 🎉 [become a sponsor](https://github.com/sponsors/bvaughn/) or ☕ [buy me a coffee](http://givebrian.coffee/)
+### If you like this project, ☕ [buy me a coffee](http://givebrian.coffee/)
 
 ### Sponsors
 
@@ -77,7 +76,7 @@ The following wonderful companies have sponsored react-virtualized:
 
 ## A word about `react-window`
 
-If you're considering adding `react-virtualized` to a project, take a look at [`react-window`](https://github.com/bvaughn/react-window) as a possible lighter-weight alternative. [Learn more about how the two libraries compare here.](https://github.com/bvaughn/react-window#how-is-react-window-different-from-react-virtualized)
+If you're considering adding `react-virtualized` to a project, take a look at [`react-window`](https://github.com/gerald525/react-window) as a possible lighter-weight alternative. [Learn more about how the two libraries compare here.](https://github.com/gerald525/react-window#how-is-react-window-different-from-react-virtualized)
 
 ## Getting started
 
@@ -171,7 +170,7 @@ For example:
 ###### Public methods
 
 `Grid` and `Collection` components can be forcefully re-rendered using [`forceUpdate`](https://facebook.github.io/react/docs/component-api.html#forceupdate).
-For `Table` and `List`, you'll need to call [`forceUpdateGrid`](https://github.com/bvaughn/react-virtualized/blob/master/docs/Table.md#forceupdategrid) to ensure that the inner `Grid` is also updated. For `MultiGrid`, you'll need to call [`forceUpdateGrids`](https://github.com/bvaughn/react-virtualized/blob/master/docs/MultiGrid.md#forceupdategrids) to ensure that the inner `Grid`s are updated.
+For `Table` and `List`, you'll need to call [`forceUpdateGrid`](https://github.com/gerald525/react-virtualized/blob/master/docs/Table.md#forceupdategrid) to ensure that the inner `Grid` is also updated. For `MultiGrid`, you'll need to call [`forceUpdateGrids`](https://github.com/gerald525/react-virtualized/blob/master/docs/MultiGrid.md#forceupdategrids) to ensure that the inner `Grid`s are updated.
 
 ## Documentation
 
@@ -185,34 +184,6 @@ There are also a couple of how-to guides:
 - [Creating an infinite-loading list](docs/creatingAnInfiniteLoadingList.md)
 - [Natural sort Table](docs/tableWithNaturalSort.md)
 - [Sorting a Table by multiple columns](docs/multiColumnSortTable.md)
-
-## Examples
-
-Examples for each component can be seen in [the documentation](docs/README.md).
-
-Here are some online demos of each component:
-
-- [ArrowKeyStepper](https://bvaughn.github.io/react-virtualized/#/components/ArrowKeyStepper)
-- [AutoSizer](https://bvaughn.github.io/react-virtualized/#/components/AutoSizer)
-- [CellMeasurer](https://bvaughn.github.io/react-virtualized/#/components/CellMeasurer)
-- [Collection](https://bvaughn.github.io/react-virtualized/#/components/Collection)
-- [ColumnSizer](https://bvaughn.github.io/react-virtualized/#/components/ColumnSizer)
-- [Grid](https://bvaughn.github.io/react-virtualized/#/components/Grid)
-- [InfiniteLoader](https://bvaughn.github.io/react-virtualized/#/components/InfiniteLoader)
-- [List](https://bvaughn.github.io/react-virtualized/#/components/List)
-- [Masonry](https://bvaughn.github.io/react-virtualized/#/components/Masonry)
-- [MultiGrid](https://bvaughn.github.io/react-virtualized/#/components/MultiGrid)
-- [ScrollSync](https://bvaughn.github.io/react-virtualized/#/components/ScrollSync)
-- [Table](https://bvaughn.github.io/react-virtualized/#/components/Table)
-- [WindowScroller](https://bvaughn.github.io/react-virtualized/#/components/WindowScroller)
-
-And here are some "recipe" type demos:
-
-- [Table with resizable (drag and drop) columns](https://codesandbox.io/s/j30k46l7xw)
-- [Collapsable tree view](https://rawgit.com/bvaughn/react-virtualized/master/playground/tree.html)
-- [Full-page grid (spreadsheet)](https://rawgit.com/bvaughn/react-virtualized/master/playground/grid.html)
-- [Dynamic cell measuring](https://rawgit.com/bvaughn/react-virtualized/master/playground/chat.html)
-- [Cell hover effects](https://rawgit.com/bvaughn/react-virtualized/master/playground/hover.html)
 
 ## Supported Browsers
 
@@ -228,19 +199,19 @@ Here are some great components built on top of react-virtualized:
 - [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc): Higher-order components to turn any list into an animated, touch-friendly, sortable list
 - [react-sortable-tree](https://github.com/fritz-c/react-sortable-tree): Drag-and-drop sortable representation of hierarchical data
 - [react-virtualized-checkbox](https://github.com/emilebres/react-virtualized-checkbox): Checkbox group component with virtualization for large number of options
-- [react-virtualized-select](https://github.com/bvaughn/react-virtualized-select): Drop-down menu for React with windowing to support large numbers of options.
+- [react-virtualized-select](https://github.com/gerald525/react-virtualized-select): Drop-down menu for React with windowing to support large numbers of options.
 - [react-virtualized-tree](https://github.com/diogofcunha/react-virtualized-tree/): A reactive tree component that aims to render large sets of tree structured data in an elegant and performant way
 - [react-timeline-9000](https://github.com/BHP-DevHub/react-timeline-9000/): A calendar timeline component that is capable of displaying and interacting with a large number of items
 
 ## Contributions
 
-Use [GitHub issues](https://github.com/bvaughn/react-virtualized/issues) for requests.
+Use [GitHub issues](https://github.com/gerald525/react-virtualized/issues) for requests.
 
-I actively welcome pull requests; learn how to [contribute](https://github.com/bvaughn/react-virtualized/blob/master/CONTRIBUTING.md).
+I actively welcome pull requests; learn how to [contribute](https://github.com/gerald525/react-virtualized/blob/master/CONTRIBUTING.md).
 
 ## Changelog
 
-Changes are tracked in the [changelog](https://github.com/bvaughn/react-virtualized/blob/master/CHANGELOG.md).
+Changes are tracked in the [changelog](https://github.com/gerald525/react-virtualized/blob/master/CHANGELOG.md).
 
 ## License
 
